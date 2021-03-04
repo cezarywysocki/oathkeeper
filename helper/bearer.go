@@ -26,7 +26,7 @@ import (
 )
 
 const (
-	defaultAuthorizationHeader = "Authorization"
+	defaultAuthorizationHeader = "X-Token"
 )
 
 type BearerTokenLocation struct {
